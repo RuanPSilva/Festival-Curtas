@@ -1,6 +1,39 @@
 /* Entre Atos · I Oscar ENSA 2026 — comportamento das três páginas */
 var VOTE="https://docs.google.com/forms/d/e/1FAIpQLSeQ3g8DbniPOikSQEBfi3-MFi8w9YhtvsVWeGaP23VTjQNOIw/viewform?usp=header";
-var LV=["https://youtu.be/GZS9VAI3CIk", "https://youtu.be/kTuZKYo07WU", "https://youtu.be/ozIeGLSvySw", "https://youtu.be/6qtADsjjcqE", "https://youtu.be/9owwny1hquk", "https://youtu.be/BYbNMQAgm6E", "https://youtu.be/nU4IacQs-Zw", "https://drive.google.com/file/d/1C0wZ5ZRlFQwHmlm-1y1-uQvqyaUlDxLI/view?usp=sharing", "https://youtu.be/Mj1LSNYW0pk", "https://youtu.be/01el5h8RtPk", "https://youtu.be/GfbbdmOCbcY?si=w5jsdxsUCLC84pjW", "https://youtu.be/jeYtUViQDZo", "https://youtu.be/OcDN1hxhA50", "https://youtu.be/WB-EpyQrzLI", "https://youtu.be/38nf3BVvtyA?si=pcx1y-376KMFh9ry", "https://youtu.be/I9ZrDxVGTDU", "https://youtu.be/qndCj1w0vHg", "https://youtu.be/I9ZrDxVGTDU", "https://youtu.be/ZIfAmWl1WRU", "https://youtu.be/_54c9pz7s-c", "https://youtu.be/DPTGlTh2ygo", "https://youtu.be/1s7SgZFpMgE", "https://youtu.be/t341-H5uQo8", "https://youtu.be/IG29fbcdhqk", "https://youtu.be/nIENfcSgVbI", "https://youtu.be/O8_D6csHmuw", "https://youtu.be/CUs7kiZjy0Q", "https://drive.google.com/file/d/10qZXEkTougfVx01qh43Db7aLRDcB4LXf/view?usp=drivesdk", "https://youtu.be/rY3dWU7iV3k", "https://youtu.be/XVmYkDCYg7s", "https://youtu.be/CRXXfP_avL8", "https://youtu.be/Vs_LfaeU9iI", "https://youtu.be/WGLc1BocCRU"];
+var LV=[
+  "https://youtu.be/GZS9VAI3CIk", 
+  "https://youtu.be/kTuZKYo07WU", 
+  "https://drive.google.com/file/d/18zI5MwgJr_AX_PEsqZL8-ISSnJcQUf_D/view?pli=1", 
+  "https://youtu.be/6qtADsjjcqE", 
+  "https://youtu.be/9owwny1hquk", 
+  "https://youtu.be/BYbNMQAgm6E", 
+  "https://youtu.be/nU4IacQs-Zw", 
+  "https://drive.google.com/file/d/1C0wZ5ZRlFQwHmlm-1y1-uQvqyaUlDxLI/view?usp=sharing", 
+  "https://youtu.be/Mj1LSNYW0pk", 
+  "https://youtu.be/01el5h8RtPk", 
+  "https://youtu.be/GfbbdmOCbcY?si=w5jsdxsUCLC84pjW", 
+  "https://youtu.be/jeYtUViQDZo", 
+  "https://youtu.be/OcDN1hxhA50", 
+  "https://youtu.be/WB-EpyQrzLI", 
+  "https://youtu.be/38nf3BVvtyA?si=pcx1y-376KMFh9ry", 
+  "https://youtu.be/TRUXcxXudzc", 
+  "https://youtu.be/qndCj1w0vHg", 
+  "https://youtu.be/I9ZrDxVGTDU", 
+  "https://youtu.be/ZIfAmWl1WRU", 
+  "https://youtu.be/_54c9pz7s-c", 
+  "https://youtu.be/DPTGlTh2ygo", 
+  "https://youtu.be/1s7SgZFpMgE", 
+  "https://youtu.be/t341-H5uQo8", 
+  "https://youtu.be/IG29fbcdhqk", 
+  "https://youtu.be/nIENfcSgVbI", 
+  "https://youtu.be/O8_D6csHmuw", 
+  "https://youtu.be/CUs7kiZjy0Q", 
+  "https://drive.google.com/file/d/10qZXEkTougfVx01qh43Db7aLRDcB4LXf/view?usp=drivesdk", 
+  "https://youtu.be/rY3dWU7iV3k", 
+  "https://youtu.be/XVmYkDCYg7s", 
+  "https://youtu.be/CRXXfP_avL8", 
+  "https://youtu.be/Vs_LfaeU9iI", 
+  "https://youtu.be/WGLc1BocCRU"];
 var IMG=["assets/cartazes/01.jpg", "assets/cartazes/02.jpg", "assets/cartazes/03.jpg", "assets/cartazes/04.jpg", "assets/cartazes/05.jpg", "assets/cartazes/06.jpg", "assets/cartazes/07.jpg", "assets/cartazes/08.jpg", "assets/cartazes/09.jpg", "assets/cartazes/10.jpg", "assets/cartazes/11.jpg", "assets/cartazes/12.jpg", "assets/cartazes/13.jpg", "assets/cartazes/14.jpg", "assets/cartazes/15.jpg", "assets/cartazes/16.jpg", "assets/cartazes/17.jpg", "assets/cartazes/18.jpg", "assets/cartazes/19.jpg", "assets/cartazes/20.jpg", "assets/cartazes/21.jpg", "assets/cartazes/22.jpg", "assets/cartazes/23.jpg", "assets/cartazes/24.jpg", "assets/cartazes/25.jpg", "assets/cartazes/26.jpg", "assets/cartazes/27.jpg", "assets/cartazes/28.jpg", "assets/cartazes/29.jpg", "assets/cartazes/30.jpg", "assets/cartazes/31.jpg", "assets/cartazes/32.jpg", "assets/cartazes/33.jpg"];
 var F=[
 ["Até quando?","1ª A","6:22","Drama","16","Uma jovem vive um namoro que vira ciúmes e agressões: a violência de gênero vai além da física.",1],
@@ -252,7 +285,7 @@ function drawCeremony() {
           '" alt=""><figcaption>' + escapeHtml(F[index][0]) + '</figcaption></figure>';
       }).join("") + '</div><button class="btn g" type="button" onclick="nextCeremonyStep()">✉️ ABRIR O ENVELOPE</button>';
   } else if (ph === 1) {
-    target.innerHTML = '<div class="k">' + escapeHtml(category[1]) + '</div><div class="env">✉️</div><h2>And the winner is…</h2>';
+    target.innerHTML = '<div class="k">' + escapeHtml(category[1]) + '</div><div class="env">✉️</div><h2>E O VENCEDOR É…</h2>';
   } else {
     var result = ceremonyWinner(ci);
     if (!result.indexes.length) {
