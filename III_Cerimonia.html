@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#05070d">
+  <meta name="description" content="Entre Atos · I Oscar ENSA 2026 — Mostra Estudantil de Curtas-Metragens.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Entre Atos · I Oscar ENSA 2026</title>
+</head>
+<body data-page="cerimonia">
+<nav class="nav">
+  <a class="lg" href="I_Mostra.html" aria-label="Entre Atos - início"><img src="assets/logo.png" alt="Colégio Nossa Senhora Aparecida"></a>
+  <div class="nl">
+    <a href="I_Mostra.html" class=""><b>I</b><span> · Mostra</span></a>
+    <a href="II_Indicados.html" class=""><b>II</b><span> · Indicados</span></a>
+    <a href="III_Cerimonia.html" class="active"><b>III</b><span> · Cerimônia</span></a>
+  </div>
+  <a class="btn g sm" data-vote href="https://docs.google.com/forms/d/e/1FAIpQLSeQ3g8DbniPOikSQEBfi3-MFi8w9YhtvsVWeGaP23VTjQNOIw/viewform?usp=header" target="_blank" rel="noopener">Votar</a>
+</nav>
+<header class="hero" id="top">
+  <div class="mos" id="mos"></div>
+  <div class="hc">
+    <p class="k">1º Festival de Curtas · Mostra Estudantil de Curtas-Metragens</p>
+    <h1><span>Entre</span><span class="ol">Atos</span></h1>
+    <p class="ed">I OSCAR ENSA 2026</p>
+    <p class="tema">“Vozes que rompem o silêncio em cena.”</p>
+    <div class="cta"><a class="btn g" href="#cerimonia">🏆 Acompanhar apuração</a>
+<a class="btn o" href="I_Mostra.html">🎬 Ver os curtas</a>
+<button class="btn o" type="button" onclick="openCeremony()">🎭 Abrir Modo Cerimônia</button></div>
+    <div class="st"><div><b>33</b><span>curtas-metragens</span></div><div><b>6</b><span>categorias</span></div><div><b>3</b><span>séries</span></div></div>
+  </div>
+</header>
+<div class="mq"><span>✦ ATO I · A MOSTRA ✦ ATO II · OS INDICADOS ✦ ATO III · A CERIMÔNIA ✦ ENTRE ATOS 2026 ✦ I OSCAR ENSA ✦ AND THE WINNER IS… ✦</span></div>
+<main>
+<section id="cerimonia">
+  <div class="sh rv"><span class="num">III</span><div><h2>Ato III · A Cerimônia</h2><p>Confira os concorrentes do Júri Popular e acompanhe a apuração dos votos.</p></div></div>
+  <div class="p3">
+    <div class="pn popular-panel rv">
+      <h3>⭐ Júri Popular</h3>
+      <p>Todos os 33 filmes estão indicados nesta categoria. Clique em um cartaz para abrir a ficha e assistir ao curta.</p>
+      <div class="cta"><a class="btn g" data-vote target="_blank" rel="noopener">⭐ Votar no Júri Popular</a><button class="btn o" type="button" onclick="openCeremony()">🎭 Abrir Modo Cerimônia</button></div>
+      <div class="people-grid" id="popular-list"></div>
+    </div>
+    <div class="pn rv">
+      <h3>📊 Placar da apuração</h3>
+      <p>Ranking do Júri Popular com os totais preenchidos manualmente a partir das respostas do formulário.</p>
+      <div id="bd"></div>
+      <p class="score-note">Os números não são simulados. Para atualizar o placar, edite o arquivo <b>apuracao.js</b> e preencha os votos de cada curta.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer><span class="logo"><img src="assets/logo.png" alt="Colégio Nossa Senhora Aparecida"></span><p>🎞️ Entre Atos · 1º Festival de Curtas · I Oscar ENSA 2026</p></footer>
+<div id="dw"></div>
+<div id="cer"><button class="btn o cx" type="button" onclick="closeCeremony()">✕ SAIR</button><div id="cs"></div></div>
+<script src="apuracao.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

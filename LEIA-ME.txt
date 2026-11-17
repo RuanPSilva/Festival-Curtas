@@ -1,0 +1,22 @@
+ENTRE ATOS · I OSCAR ENSA 2026
+
+ARQUIVOS PRINCIPAIS
+- I_Mostra.html: vídeos e cards dos 33 curtas, com indicações individuais.
+- II_Indicados.html: cards separados por categoria.
+- III_Cerimonia.html: Júri Popular completo e placar da apuração.
+- style.css: estilos compartilhados.
+- script.js: comportamento das páginas.
+- apuracao.js: local para inserir os votos reais do formulário.
+
+COMO ATUALIZAR O PLACAR SEM API
+1. Abra apuracao.js em um editor de texto ou no VS Code.
+2. Na seção APURACAO_MANUAL, substitua null pelo total de votos de cada curta.
+   Exemplo: "Até quando?": 18,
+3. Preencha os filmes sem votos com 0 depois de fechar a apuração.
+4. Salve o arquivo e atualize III_Cerimonia.html no navegador.
+
+Os prêmios decididos por júri podem ser preenchidos em VENCEDORES_MANUAIS,
+com o título exato do filme vencedor.
+
+Mantenha os arquivos HTML, CSS e JS na mesma pasta e a pasta assets junto deles.
+Abra I_Mostra.html para iniciar a navegação.
