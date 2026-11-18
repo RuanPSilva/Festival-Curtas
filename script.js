@@ -69,9 +69,9 @@ var F=[
 ["Até que ponto?","3ª A","8:26","Drama","—","Uma piada ofensiva leva Lívia a um cancelamento: justiça ou crueldade?"],
 ["Vitrine","3ª A","11:37","Drama","—","Quanto da própria vida alguém está disposto a vender para ser visto?"],
 ["O preço de se encaixar…","3ª A","4:27","Ficção","—","Crítica aos padrões estéticos e ao perigo das clínicas clandestinas."]];var AW=[
-["🎬","Melhor Direção",[["ÂMAGO",27],["INSUFICIENTE",8],["EM BUSCA DE SENTIDO",14],["CONTRA LUZ!!!",16],["O PREÇO DO AGORA!",4],["QUIMERA",13],["ATÉ QUANDO?",0]]],
+["🎬","Melhor Direção",[["ÂMAGO",27],["INSUFICIENTE",8],["EM BUSCA DE SENTIDO",14],["ENTRE NÓS: NADA!",24],["CONTRA LUZ!!!",16],["QUIMERA",13],["ATÉ QUANDO?",0]]],
 ["📝","Melhor Roteiro",[["ÂMAGO",27],["INSUFICIENTE",8],["EM BUSCA DE SENTIDO",14],["CONTRA LUZ",16],["ENTRE NÓS: NADA!",24],["ATÉ QUANDO?",0],["NUNCA O BASTANTE.",3],["VERSÕES",9],["QUIMERA",13],["MENTE RECOMENDADA.",7],["RUÍDO BRANCO",1]]],
-["📸","Melhor Fotografia",[["EM BUSCA DE SENTIDO",14],["CONTRA LUZ",16],["ENTRE NÓS: NADA!",24],["VITRINE",31],["VERSÕES",9]]],
+["📸","Melhor Fotografia",[["ÂMAGO",27],["EM BUSCA DE SENTIDO",14],["CONTRA LUZ",16],["ENTRE NÓS: NADA!",24],["NUNCA O BASTANTE.",3],["VITRINE",31],["VERSÕES",9]]],
 ["🎵","Melhor Trilha Sonora",[["CONTRA LUZ!!!",16],["MENTE RECOMENDADA",7],["ÂMAGO",27],["VIVER OU SOBREVIVER",20],["VERSÕES",9]]],
 ["🎭","Melhor Ator / Melhor Atriz",[["ÂMAGO",27],["INSUFICIENTE",8],["CONTRA LUZ!!!",16],["VITRINE",31],["MENTE RECOMENDADA",7],["A DESCONEXÃO DA VIDA.",25]]],
 ["🏆","Melhor Curta-Metragem – Júri Popular",[["ÂMAGO",27],["INSUFICIENTE",8],["CONTRA LUZ",16],["EM BUSCA DE SENTIDO",14],["VIDAS EDITADAS",19],["VIVER OU SOBREVIVER",20],["ENTRE NÓS: NADA!",24]],1]];
